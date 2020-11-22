@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Calculadora - Bootcamp IGTI</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Super Calculadora - Bootcamp IGTI</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <main>
-    <h1>Super Calculadora</h1>
-    <div class="box-insert-numbers">
-      <input type="number" id="firstNumber">
-      <input type="number" id="secondNumber">
-    </div>
-    <div class="box-result-calc">
-      <h2>Cálculos</h2>
-      <div class="row">
-        <input type="text" id="result-sum" readonly>
-        <input type="text" id="result-sub-fs" readonly>
-        <input type="text" id="result-sub-sf" readonly>
+  <body>
+    <main>
+      <h1>Super Calculadora</h1>
+      <div class="box-insert-numbers">
+        <input autofocus type="number" id="firstNumber" />
+        <input type="number" id="secondNumber" />
       </div>
-      <div class="row">
-        <input type="text" id="result-mult" readonly>
-        <input type="text" id="result-div-fs" readonly>
-        <input type="text" id="result-div-sf" readonly>
+      <div class="box-result-calc">
+        <h2>Cálculos</h2>
+        <div class="row">
+          <input type="text" id="result-sum" readonly />
+          <input type="text" id="result-sub-fs" readonly />
+          <input type="text" id="result-sub-sf" readonly />
+        </div>
+        <div class="row">
+          <input type="text" id="result-mult" readonly />
+          <input type="text" id="result-div-fs" readonly />
+          <input type="text" id="result-div-sf" readonly />
+        </div>
+        <div class="row">
+          <input type="text" id="result-exp-f" readonly />
+          <input type="text" id="result-exp-s" readonly />
+          <input type="text" id="result-id-f" readonly />
+        </div>
+        <div class="row">
+          <input type="text" id="result-id-s" readonly />
+          <input type="text" id="result-fat-f" readonly />
+          <input type="text" id="result-fat-s" readonly />
+        </div>
       </div>
-      <div class="row">
-        <input type="text" id="result-exp-f" readonly>
-        <input type="text" id="result-exp-s" readonly>
-        <input type="text" id="result-id-f" readonly>
-      </div>
-      <div class="row">
-        <input type="text" id="result-id-s" readonly>
-        <input type="text" id="result-fat-f" readonly>
-        <input type="text" id="result-fat-s" readonly>
-      </div>
-    </div>
-  </main>
-  <script src="js/index.js"></script>
-</body>
-
+    </main>
+    <script src="js/index.js"></script>
+  </body>
 </html>
